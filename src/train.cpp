@@ -4,7 +4,7 @@
 Train::Train() : countOp(0), first(nullptr) {}
 void Train::addCage(bool light) {
   Cage*  icage = new Cage;
-  ncage->light = light;
+  icage->light = light;
   if (first == nullptr) {
     first = icage;
     first->next = first;
